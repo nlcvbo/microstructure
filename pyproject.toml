@@ -6,6 +6,6 @@ target-version = ['py312']
 
 [tool.ruff]
 line-length = 88
-select = ["E", "F", "W", "I"]
-ignore = []
+lint.select = ["E", "F", "W", "I"]
+lint.ignore = []
 target-version = "py312"
